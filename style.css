@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('assets/fundo-de-sinal-de-moeda-digital-brilhante-com-espaco-de-texto_1017-52412.avif');
+    color: #333;
+}
+
+.logo{
+width: 300px;
+display: block;
+margin: 20px auto;
+border-radius: 100px;
+
+}
+
+main{
+    width: 375px;
+    background: #f9fdf9;
+    border-radius: 20px;
+    margin:0 auto;
+    padding: 44px 24px 23px;
+}
+
+label{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select ,input{
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+button{
+    background: #f7f305;
+    border: none;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e5d404;
+}
+
+button:active{
+    background: #c9b404;
+}
+
+section{
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    margin-top: 24px;
+    text-align: center;
+    gap: 4px;
+}
+
+.arrow-img{
+    margin-top: 10px;
+}
+
+.corrency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 0;
+}
+
+.corrency-box img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+
+.currency{
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value, .currency-value-to-convert{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+} 
